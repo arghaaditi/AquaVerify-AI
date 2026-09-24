@@ -6,6 +6,27 @@ AquaVerify is a lightweight Streamlit prototype that helps citizens and research
 
 > **Prototype boundary:** AquaVerify screens observation consistency, unusual patterns, and review priority. It does **not** diagnose pollution, drinking-water safety, pathogens, chemical concentrations, regulatory compliance, or laboratory water quality.
 
+## Track Alignment — Track 3: AI-Supported Assessment
+
+AquaVerify AI is designed for **Track 3 — AI-Supported Assessment** of the OneAquaHealth IEEE Global Hackathon.
+
+Track 3 focuses on using AI responsibly to support stream assessment without replacing human judgment, particularly where citizen observations may be inconsistent or error-prone.
+
+AquaVerify addresses this challenge through a layered human-in-the-loop workflow:
+
+- basic input validation,
+- transparent consistency rules,
+- reference-data rarity analysis,
+- unsupervised novelty detection using Isolation Forest and One-Class SVM,
+- evidence-based explanations,
+- citizen correction or override,
+- and researcher triage with a documented audit trail.
+
+The system does not silently change citizen observations and does not claim to provide laboratory water-quality diagnosis. Instead, it identifies observations that deserve another look, explains why they were flagged, and keeps the citizen or researcher in control of the final decision.
+
+This directly supports OneAquaHealth's goal of improving freshwater ecosystem monitoring through responsible use of citizen science, AI, and human oversight.
+
+
 ## The problem
 
 Citizen-science observations can scale environmental monitoring, but structured submissions may contain missing values, internally inconsistent judgments, or unusual combinations that deserve another look. Manually reviewing every record does not scale well.
