@@ -14,29 +14,9 @@ AquaVerify focuses on a narrower and defensible question:
 
 > **Which citizen observations deserve another look, why, and who should review them?**
 
-## Core workflow
 
-```text
-Citizen observation
-        ↓
-Basic schema validation
-        ↓
-Consistency rule engine
-        ↓
-Conditional rarity check
-        ↓
-Isolation Forest + One-Class SVM
-        ↓
-Evidence-based explanation
-        ↓
-Citizen: Edit or Keep Answers
-        ↓
-Final reviewed observation
-        ↓
-SQLite audit trail
-        ↓
-Researcher triage dashboard
-```
+
+![Architecture](images/architecture.png)
 
 ## Important design distinction
 
