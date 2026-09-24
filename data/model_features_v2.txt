@@ -1,0 +1,14 @@
+channel_form
+bottom_type
+bank_type
+habitats_present
+natural_debris_present
+water_flow
+water_aspect
+barriers_present
+draining_pipes
+sewage_discharge
+construction_in_stream
+impervious_area
+riparian_vegetation
+vegetation_cuts
